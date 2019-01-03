@@ -14,6 +14,6 @@ A github for my FiveM server Dev Series
  - I will not be providing the FiveM Sourcecode or my Server's Sourcecode. 
 
 **```diff
- - *PLEASE DO NOT ASK!*
+ - PLEASE DO NOT ASK!
  ```**
 
