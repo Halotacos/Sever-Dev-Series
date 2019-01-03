@@ -4,7 +4,7 @@ A github for my FiveM server Dev Series
 ```diff
 -This repository is for anyone who wants to learn about how to dev in FiveM.
 ```
-# Twitch:[Link](https://www.twitch.tv/nep__official)
+# Twitch: [Link](https://www.twitch.tv/nep__official)
 # Permissions
  - You are allowed to download the releases
  - You are allowed to edit and copy my work.
