@@ -11,5 +11,9 @@ A github for my FiveM server Dev Series
  - You can not claim code as yours. 
  - Any edits are incouraged to be sent to the Issues tab under Edits.
  - Do not spam on the discord asking for support. Use the issuses tab to ask.
- - I will not be providing the FiveM Sourcecode or my Server's Sourcecode. **PLEASE DO NOT ASK!**
+ - I will not be providing the FiveM Sourcecode or my Server's Sourcecode. 
+
+**```diff
+ - *PLEASE DO NOT ASK!*
+ ```**
 
