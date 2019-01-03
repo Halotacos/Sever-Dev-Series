@@ -8,18 +8,18 @@ function welcomeNotif(string)
     DisplayHelpTextFromStringLabel(0, 0, 1, -1)
 end
 
-//Colors:
-//~r~ = Red
-//~b~ = Blue
-//~g~ = Green
-//~y~ = Yellow
-//~p~ = Purple
-//~c~ = Grey
-//~m~ = Dark Grey
-//~u~ = Black
-//~o~ = Orange
+--Colors:
+--~r~ = Red
+--~b~ = Blue
+--~g~ = Green
+--~y~ = Yellow
+--~p~ = Purple
+--~c~ = Grey
+--~m~ = Dark Grey
+--~u~ = Black
+--~o~ = Orange
 
-//Special:
-//~n~ = New line
-//~s~ = Reset Color
-//~h~ = Bold text
+--Special:
+--~n~ = New line
+--~s~ = Reset Color
+--~h~ = Bold text
