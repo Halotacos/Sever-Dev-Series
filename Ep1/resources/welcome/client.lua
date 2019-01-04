@@ -3,9 +3,15 @@
 --end)
 
 
+--AddEventHandler("playerSpawned", function(spawn)
+  --  TriggerEvent("chatMessage", "", { 0, 0, 0 }, "~s~Welcome ~r~".. GetPlayerName(source) .. " ~s~Be sure to read the rules.")
+--end)
 AddEventHandler("playerSpawned", function(spawn)
-    TriggerEvent("chatMessage", "", { 0, 0, 0 }, "~s~Welcome ~r~".. GetPlayerName(source) .. " ~s~Be sure to read the rules.")
-end)
+local msgString = string.gsub(Messages.welcomeMessage, "{player}", GetPlayerName(source))
+        local message = {args = {msgString}, color = {255,255,255}, multiline = true}
+            TriggerClientEvent("chat:addMessage", source, message)
+        end)
+
 
 --Colors:
 --~r~ = Red
