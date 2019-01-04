@@ -1,12 +1,11 @@
-AddEventHandler("playerSpawned", function(spawn)
-   welcomeNotif("~s~Welcome ~r~".. GetPlayerName(source) .. " ~s~Be sure to read the rules.")
-end)
+--AddEventHandler("playerSpawned", function(spawn)
+  -- welcomeNotif("~s~Welcome ~r~".. GetPlayerName(source) .. " ~s~Be sure to read the rules.")
+--end)
 
-function welcomeNotif(string)
-    SetTextComponentFormat("STRING")
-    AddTextComponentString(string)
-    DisplayHelpTextFromStringLabel(0, 0, 1, -1)
-end
+
+AddEventHandler("playerSpawned", function(spawn)
+    TriggerEvent("chatMessage", "", { 0, 0, 0 }, "~s~Welcome ~r~".. GetPlayerName(source) .. " ~s~Be sure to read the rules.")
+end)
 
 --Colors:
 --~r~ = Red
